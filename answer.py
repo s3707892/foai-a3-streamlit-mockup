@@ -83,7 +83,7 @@ def _price_phrase(rec: dict) -> str:
     if price is not None:
         return _money(price)
     if rec.get("rental_cost") is not None:
-        return f"hire rate ${rec['rental_cost']:.2f} (the table lists a rental cost, not a sale price)"
+        return f"Hire rate ${rec['rental_cost']:.2f} )"
     return "price on application"
 
 
