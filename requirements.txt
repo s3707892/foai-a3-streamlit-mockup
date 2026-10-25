@@ -7,5 +7,10 @@
 # Pinned so the demo behaves the same for the teaching team as it did when recorded.
 streamlit==1.66.1
 
+# Streamlit Community Cloud detects pyarrow 26.0.0 as a known segfault
+# (apache/arrow#50471) and reinstalls <25 on every deploy. Pinning it here skips
+# that extra install/remove cycle. Streamlit only needs pyarrow for st.dataframe.
+pyarrow<25
+
 # Test-only. Not needed to run the mock-up.
 pytest==9.1.1
