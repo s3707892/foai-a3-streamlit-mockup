@@ -28,22 +28,22 @@ LISTING_COUNT = FIXTURE["meta"]["listing_count"]
 EVIDENCE_ENABLED = os.environ.get("FOAI_SHOW_EVIDENCE", "").strip().lower() in {"1", "true", "yes", "on"}
 
 SCENARIOS = {
-    "1. Timing - happy path": [
+    "1. Timing tool easy": [
         "2015 Golf 1.4 TSI, doing the timing belt.",
         "CXSA",
     ],
-    "2. Timing - table is authoritative": [
+    "2. Timing tool table uses provided lookup table first": [
         "VW 2.0 TDI, engine code DFGA, timing belt please.",
     ],
-    "3. Seal - ambiguity": [
+    "3. Seal tool check": [
         "Rear main seal on a 4JJ1.",
         "seal number 3-97071561",
     ],
-    "4. Bearing - measurement, not vehicle": [
+    "4. Bearing tool check": [
         "Need a wheel bearing tool for a 2012 Hilux.",
         "91.2mm",
     ],
-    "5. Abstain - out of catalogue": [
+    "5. Unknown answer": [
         "Do you have a timing kit for a 2019 Hilux 2.8 diesel?",
     ],
 
