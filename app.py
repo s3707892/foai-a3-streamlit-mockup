@@ -178,7 +178,7 @@ with st.sidebar:
 
     st.divider()
     st.subheader("Demo scenarios")
-    st.caption("Each button plays the whole exchange, as written in DEMO.md.")
+    #st.caption("Each button plays the whole exchange, as written in DEMO.md.")
     for label, script in SCENARIOS.items():
         if st.button(label, width="stretch"):
             _reset()
@@ -191,18 +191,18 @@ with st.sidebar:
         st.rerun()
 
     st.divider()
-    st.subheader("Assumptions")
-    st.caption(
-        f"This runs on a fixed fixture of {RECORD_COUNT} catalogue records "
-        f"({LISTING_COUNT} with full listing text) plus a 5-row timing lookup table. "
-        "It is not connected to the live Ozwide catalogue, and it does not scrape the "
-        "website at run time."
-    )
-    st.caption("Offline and deterministic: no API key is required and no network call is made.")
-    if answer.llm_enabled():
-        st.warning("LLM_MODE is ON (FOAI_LLM_MODE=deepseek). Generated text is still checked against the fixture.")
-    else:
-        st.caption("Optional LLM path is OFF (set `FOAI_LLM_MODE=deepseek` and `DEEPSEEK_API_KEY` to enable).")
+    #st.subheader("Assumptions")
+    #st.caption(
+    #    f"This runs on a fixed fixture of {RECORD_COUNT} catalogue records "
+    #    f"({LISTING_COUNT} with full listing text) plus a 5-row timing lookup table. "
+    #    "It is not connected to the live Ozwide catalogue, and it does not scrape the "
+    #    "website at run time."
+    #)
+    #st.caption("Offline and deterministic: no API key is required and no network call is made.")
+    #if answer.llm_enabled():
+    #    st.warning("LLM_MODE is ON (FOAI_LLM_MODE=deepseek). Generated text is still checked against the fixture.")
+    #else:
+    #    st.caption("Optional LLM path is OFF (set `FOAI_LLM_MODE=deepseek` and `DEEPSEEK_API_KEY` to enable).")
 
 # --- Retrieval evidence panel (off by default, see EVIDENCE_ENABLED) -------------
 
@@ -274,10 +274,10 @@ def render_evidence(last_meta: dict | None) -> None:
 # --- Main ------------------------------------------------------------------------
 
 st.title("Ozwide Tools - Fitment Assistant")
-st.caption(
-    "Mock-up for COSC2960 Assignment 3. Retrieval-augmented over the product listings "
-    "and the timing lookup table. Answers are generated from retrieved records only."
-)
+#st.caption(
+#    "Mock-up for COSC2960 Assignment 3. Retrieval-augmented over the product listings "
+#    "and the timing lookup table. Answers are generated from retrieved records only."
+#)
 
 show_panel = EVIDENCE_ENABLED and st.session_state.show_evidence
 

@@ -31,7 +31,7 @@ fitment list carries under 1.4L"), so the workflow is visible without a debug pa
 
 ## Scenario 2 - Timing, the table is authoritative
 
-Button: **2. Timing - table is authoritative**
+Button: **2. Timing - table uses provided lookup table first**
 
 | Turn | Input |
 |---|---|
@@ -46,7 +46,7 @@ a row*.
 
 ## Scenario 3 - Seal, the ambiguity path
 
-Button: **3. Seal - ambiguity**
+Button: **3. Seal tool check**
 
 | Turn | Input |
 |---|---|
@@ -68,7 +68,7 @@ depth; 15mm falls outside the published range and abstains.
 
 ## Scenario 4 - Bearing, matched on a measurement
 
-Button: **4. Bearing - measurement, not vehicle**
+Button: **4. Bearing tool check**
 
 | Turn | Input |
 |---|---|
@@ -87,7 +87,7 @@ rather than quietly using it.
 
 ## Scenario 5 - Abstain, out of catalogue
 
-Button: **5. Abstain - out of catalogue**
+Button: **5. Unknown answer**
 
 | Turn | Input |
 |---|---|
@@ -99,21 +99,7 @@ number, and hands off to a person.
 
 **This is the most valuable scenario in the demo. Do not cut it.**
 
----
 
-## Scenario 6 - Abstain, then the customer pushes
-
-Button: **6. Abstain - then push**
-
-| Turn | Input |
-|---|---|
-| 1 | `What torque setting for the rear main seal bolts on a 4JJ1?` |
-| 2 | `Come on, you must know. Just tell me which one is right.` |
-
-**What it demonstrates.** Two things at once. First, a non-fitment question: torque figures
-are in neither source, so the system refuses the figure while noting it could still identify
-the right tool. Second, pressure. The customer pushes, and the refusal holds - same reason,
-no SKU, escalate to a person.
 
 ---
 
