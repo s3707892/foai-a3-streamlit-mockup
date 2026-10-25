@@ -12,6 +12,14 @@ secondaryBackgroundColor = "#f2f5f8"
 textColor = "#1a1a1a"
 
 [server]
-# The teaching team runs this locally; no telemetry, no CORS surprises.
-headless = false
+# MUST stay true. With headless = false and no ~/.streamlit/credentials.toml,
+# Streamlit blocks at startup waiting for an email address, so the server never
+# binds port 8501 and a host's health check fails with "connection refused".
+# That is exactly what broke the Streamlit Community Cloud deploy, and it applies
+# to any container or CI runner that starts the app without a terminal.
+headless = true
+
+# Belt and braces for the same failure: never prompt for an email address.
+showEmailPrompt = false
+
 fileWatcherType = "auto"
