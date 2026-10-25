@@ -46,14 +46,11 @@ SCENARIOS = {
     "5. Abstain - out of catalogue": [
         "Do you have a timing kit for a 2019 Hilux 2.8 diesel?",
     ],
-    "6. Abstain - then push": [
-        "What torque setting for the rear main seal bolts on a 4JJ1?",
-        "Come on, you must know. Just tell me which one is right.",
-    ],
+
 }
 
 GREETING = (
-    "G'day - I can look up which special tool fits your vehicle from the Ozwide catalogue. "
+    "Hi! I can look up which special tool fits your vehicle from the Ozwide catalogue. "
     "Tell me the vehicle and what you're working on."
 )
 
