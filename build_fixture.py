@@ -184,7 +184,6 @@ def _related_skus(raw: str, self_sku: str) -> list[str]:
 QUALITY_FLAGS = {
     "DM11-C1594": [
         "title advertises 1.0L / 1.2L / 1.4L but the engine list has no 1.0L codes",
-        "companion tool written as 'DM1-A1872' in one note and 'DM11-A1872' in another - one digit, one typo",
         "'Other Engine codes' block gives codes with no displacement, so displacement cannot narrow them",
     ],
     "DM11-A1261": [

@@ -270,8 +270,7 @@ def _notes(rec: dict, slots: dict, fixture: dict) -> list[dict]:
                 "text": (
                     f"This vehicle is a {year}, so it falls under the listing's pre-2017 note: if the VVTi "
                     f"sprockets have to come off, the camshaft holding set {companion} is needed as well. "
-                    f"The listing spells that number 'DM1-A1872' in one place and 'DM11-A1872' in another; "
-                    f"treat it as one tool and confirm with the desk."
+                    
                 ),
             }
         )
