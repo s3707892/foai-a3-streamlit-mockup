@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "description": "Ozwide Tools fitment assistant fixture. Two sources: website listings and the timing lookup table.",
+    "authority": "Where the timing table has a (make, engine code) row it outranks every listing.",
+    "raw_sources_sha256_16": {
+      "DM11-A1261.txt": "2c96bee5ba4dbcb1",
+      "DM11-B1008.txt": "173d87e8a0130e06",
+      "DM11-C1594.txt": "c76e600f1ac7723e",
+      "toolfinder.csv": "2385e2b2a9905870"
+    },
+    "listing_count": 3,
+    "record_count": 8,
+    "timing_table_rows": 5,
+    "not_included": "The live Ozwide catalogue. This is a fixed fixture so the demo runs offline."
+  },
+  "aliases": {
+    "DM1-A1872": {
+      "alias_of": "DM11-A1872",
+      "reason": "one-digit typo in a note on DM11-C1594"
+    }
+  },
+  "records": [
+    {
+      "sku": "DM11-A1261",
+      "title": "GM Isuzu 4JJ1 4JJ3 Rear Main Seal Installation Tool",
+      "family": "seal",
+      "source": "listing",
+      "source_file": "data/raw/DM11-A1261.txt",
+      "has_listing": true,
+      "price_inc_gst": 297.0,
+      "makes": [
+        "Izuzu",
+        "Holden",
+        "GM",
+        "Isuzu"
+      ],
+      "engine_codes": {
+        "4JB1": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        },
+        "4JH1": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        },
+        "4JJ1": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        },
+        "4JG2": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        },
+        "4JJ3": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        },
+        "4JX1": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "4JB1 / 4JH1 / 4JJ1   / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1"
+        }
+      },
+      "seal_numbers": [
+        {
+          "as_published": "BZ4962-E",
+          "normalised": "BZ4962E"
+        },
+        {
+          "as_published": "3-97071561",
+          "normalised": "397071561"
+        },
+        {
+          "as_published": "397071561",
+          "normalised": "397071561"
+        },
+        {
+          "as_published": "39707 1561",
+          "normalised": "397071561"
+        },
+        {
+          "as_published": "8-97071561",
+          "normalised": "897071561"
+        }
+      ],
+      "seat_depth_mm": {
+        "sku": "DM11-A1261",
+        "min": 12.2,
+        "max": 12.8
+      },
+      "adapter_diameters": [],
+      "model_lines": [
+        "Izuzu: 3.5 Tonne / Mu / NKR69 /  NKR77 / NLR85 / NNR85 / Wizard / DMax",
+        "Holden: Rodeo / Jackaroo",
+        "Isuzu D-MAX 4JJ3 2019 Onwards",
+        "Isuzu / Colorado 3.0L 4JX1 2008"
+      ],
+      "negative_constraints": [
+        {
+          "excludes": "4BE",
+          "verbatim": "Will NOT fit 4BE"
+        }
+      ],
+      "related_skus": [
+        "DM11-B1726"
+      ],
+      "quality_flags": [
+        "'Izuzu' misspelt in the models block",
+        "a Colorado is filed under Isuzu",
+        "model year embedded in a model name: 'Colorado 3.0L 4JX1 2008'",
+        "one seal number published four ways: 3-97071561 / 397071561 / 39707 1561 / 8-97071561",
+        "carries a negative constraint (Will NOT fit 4BE) that naive text search would read as a fit",
+        "alternative kit DM11-B1726 is named but its seat depth is never published"
+      ],
+      "raw_text": "SKU: DM11-A1261\nGM Isuzu 4JJ1 4JJ3 Rear Main Seal Installation Tool\n$297.00 Inc. GST\nThis tool is specially designed to prevent oil seal damage during installation.\n\nThe seal will leak without using the correct tool!\nThe DM11-A1261 tool is generally for the early versions,\n\nThe best way to check is via the Seal Numbers as there are now two kits that may fit your vehicle, but also the depth the seal is pushed in. The other tool it may be is  DM11-B1726\nThese two tools are almost identical, the only difference we can find is the depth of where the seal is seated in the tool.\n\nThe depth for the DM11-A1261 is 12.2-12.8mm\n\nThis kit (DM11-A1261) will also fit some front crankshaft seals but again please check the seal number.\n\nModels Suits:\n\nIzuzu: 3.5 Tonne / Mu / NKR69 /  NKR77 / NLR85 / NNR85 / Wizard / DMax\nHolden: Rodeo / Jackaroo\nIsuzu D-MAX 4JJ3 2019 Onwards\nIsuzu / Colorado 3.0L 4JX1 2008\nEngines: 4JB1 / 4JH1 / 4JJ1 (130hp / 150 hp) / 4JG2 / 4JH1-TC / 4JJ1-TCS / 4JJ3 / 4JX1\nNOTE: Will NOT fit 4BE\n\nOEM Seal Number:  BZ4962-E / 3-97071561 / 397071561 / 39707 1561 / 8-97071561\nEquivalent to Oil Seal Installer Tool: 5-8840-2359-0\n"
+    },
+    {
+      "sku": "DM11-B1008",
+      "title": "Universal Wheel Bearing Removal and Installation Tool Kit",
+      "family": "bearing",
+      "source": "listing",
+      "source_file": "data/raw/DM11-B1008.txt",
+      "has_listing": true,
+      "price_inc_gst": 643.5,
+      "makes": [],
+      "engine_codes": {},
+      "seal_numbers": [],
+      "seat_depth_mm": null,
+      "adapter_diameters": [
+        {
+          "adapter": "#4",
+          "side": "inside",
+          "mm": 91.2
+        },
+        {
+          "adapter": "#5",
+          "side": "inside",
+          "mm": 81.8
+        },
+        {
+          "adapter": "#7",
+          "side": "inside",
+          "mm": 77.55
+        },
+        {
+          "adapter": "#8",
+          "side": "inside",
+          "mm": 69.0
+        },
+        {
+          "adapter": "#20",
+          "side": "inside",
+          "mm": 93.0
+        },
+        {
+          "adapter": "#22",
+          "side": "inside",
+          "mm": 82.0
+        },
+        {
+          "adapter": "#9",
+          "side": "outside",
+          "mm": 88.0
+        },
+        {
+          "adapter": "#10",
+          "side": "outside",
+          "mm": 79.0
+        },
+        {
+          "adapter": "#11",
+          "side": "outside",
+          "mm": 74.0
+        },
+        {
+          "adapter": "#12",
+          "side": "outside",
+          "mm": 72.0
+        },
+        {
+          "adapter": "#13",
+          "side": "outside",
+          "mm": 66.7
+        },
+        {
+          "adapter": "#14",
+          "side": "outside",
+          "mm": 65.0
+        },
+        {
+          "adapter": "#15",
+          "side": "outside",
+          "mm": 62.0
+        },
+        {
+          "adapter": "#16",
+          "side": "outside",
+          "mm": 60.0
+        },
+        {
+          "adapter": "#17",
+          "side": "outside",
+          "mm": 55.0
+        },
+        {
+          "adapter": "#18",
+          "side": "outside",
+          "mm": 38.0
+        },
+        {
+          "adapter": "#19",
+          "side": "outside",
+          "mm": 95.5
+        },
+        {
+          "adapter": "#21",
+          "side": "outside",
+          "mm": 83.55
+        }
+      ],
+      "model_lines": [
+        "Mercedes Benz, BMW, VW, Volvo, Ford and many other others including Japanese vehicles."
+      ],
+      "negative_constraints": [],
+      "related_skus": [
+        "DM11-C1095-5H"
+      ],
+      "quality_flags": [
+        "inside and outside diameters are both listed with no rule for which the customer should measure",
+        "generic model list, but the tool is matched on measurement, not on vehicle",
+        "VITO / Sprinter front bearings are carved out as an exception",
+        "typos in source: 'replaced wheels bearings', 'Spinters', 'and many other others'"
+      ],
+      "raw_text": "SKU: DM11-B1008\nUniversal Wheel Bearing Removal and Installation Tool Kit\n$643.50 Inc. GST\nWheel bearing extractor and installer tool that can be used to replaced wheels bearings \"ON CAR\" without removing the stub assembly and various knuckles that are attached.\nThis kit will work with any stub assembly that has a CV shaft running through the middle of it, even IRS systems.\n\nNOTE: Must separate wheel hub first to access wheel bearing. Use in conjunction with DM11-C1095-5H\n\nGreat time saving tool!\n\nSizes:\n\n#4  INSIDE DIAMETER: 91.2mm\n#5  INSIDE DIAMETER: 81.8mm\n#7  INSIDE DIAMETER: 77.55mm\n#8  INSIDE DIAMETER: 69mm\n#20 INSIDE DIAMETER: 93mm\n#22 INSIDE DIAMETER: 82mm\n#9 OUTSIDE DIAMETER: 88mm\n#10 OUTSIDE DIAMETER: 79mm\n#11 OUTSIDE DIAMETER: 74mm\n#12 OUTSIDE DIAMETER: 72mm\n#13 OUTSIDE DIAMETER: 66.7mm\n#14 OUTSIDE DIAMETER: 65mm\n#15 OUTSIDE DIAMETER: 62mm\n#16 OUTSIDE DIAMETER: 60mm\n#17 OUTSIDE DIAMETER: 55mm\n#18 OUTSIDE DIAMETER: 38mm\n#19 OUTSIDE DIAMETER: 95.5mm\n#21 OUTSIDE DIAMETER: 83.55mm\n\nModels: Mercedes Benz, BMW, VW, Volvo, Ford and many other others including Japanese vehicles.\n\nImportant: Please take into account that for some VITO and Spinters vehicles, this kit may not work on the front bearings.\n"
+    },
+    {
+      "sku": "DM11-C1594",
+      "title": "Audi / VW 1.0L / 1.2L / 1.4L - TSI / TFSI Engine Timing Tool Kit - Blue motion (3 and 4 Cylinder) Petrol",
+      "family": "timing",
+      "source": "listing",
+      "source_file": "data/raw/DM11-C1594.txt",
+      "has_listing": true,
+      "price_inc_gst": 437.8,
+      "makes": [
+        "VW",
+        "Seat",
+        "Skoda",
+        "Audi"
+      ],
+      "engine_codes": {
+        "CJZA": {
+          "displacement": "1.2",
+          "fuel": "TFSI",
+          "listed_under": "1.2L TFSI"
+        },
+        "CJZB": {
+          "displacement": "1.2",
+          "fuel": "TFSI",
+          "listed_under": "1.2L TFSI"
+        },
+        "CJZD": {
+          "displacement": "1.2",
+          "fuel": "TFSI",
+          "listed_under": "1.2L TFSI"
+        },
+        "CJZC": {
+          "displacement": "1.2",
+          "fuel": "TFSI",
+          "listed_under": "1.2L TFSI"
+        },
+        "CYVB": {
+          "displacement": "1.2",
+          "fuel": "TFSI",
+          "listed_under": "1.2L TFSI"
+        },
+        "CMBA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CXSA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CHPA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CHPB": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CZCA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CZDA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CZEA": {
+          "displacement": "1.4",
+          "fuel": "TFSI",
+          "listed_under": "1.4L TFSI"
+        },
+        "CPWA": {
+          "displacement": "1.4",
+          "fuel": "TGI",
+          "listed_under": "1.4L TGI"
+        },
+        "CPVA": {
+          "displacement": "1.4",
+          "fuel": "TSI",
+          "listed_under": "1.4L TSI Multi Fuel CPVA"
+        },
+        "CRJA": {
+          "displacement": "1.4",
+          "fuel": null,
+          "listed_under": "1.4L Hybrid CRJA"
+        },
+        "CHYA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CHYB": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CHZL": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CPGA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CPTA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CHZB": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CHZA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "CZCB": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "DKJA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        },
+        "DADA": {
+          "displacement": null,
+          "fuel": null,
+          "listed_under": "Other Engine codes"
+        }
+      },
+      "seal_numbers": [],
+      "seat_depth_mm": null,
+      "adapter_diameters": [],
+      "model_lines": [
+        "VW: Up / Golf VII / Jetta",
+        "Seat: Mii / Leon",
+        "Skoda: Citigo / Octavia / Kamiq / Karoq / Yeti"
+      ],
+      "negative_constraints": [],
+      "related_skus": [
+        "DM1-A1872",
+        "DM11-A1872"
+      ],
+      "quality_flags": [
+        "title advertises 1.0L / 1.2L / 1.4L but the engine list has no 1.0L codes",
+        "companion tool written as 'DM1-A1872' in one note and 'DM11-A1872' in another - one digit, one typo",
+        "'Other Engine codes' block gives codes with no displacement, so displacement cannot narrow them"
+      ],
+      "raw_text": "SKU: DM11-C1594\nAudi / VW 1.0L / 1.2L / 1.4L - TSI / TFSI Engine Timing Tool Kit - Blue motion (3 and 4 Cylinder) Petrol\n$437.80 Inc. GST\nFor checking and adjusting engine timing on the newer belt driven petrol VW engines.\n\nIncludes the updated camshaft locking tool for vehicles after 2013 with CoD (Cylinder on Demand) feature.\n\nNOTE: Vehicles Pre 2017, If you do need to remove the VVTi Sprockets, please use with DM1-A1872\n\nModels:\n\nVW: Up / Golf VII / Jetta\nSeat: Mii / Leon\nSkoda: Citigo / Octavia / Kamiq / Karoq / Yeti\nEngines: 1.2L TFSI: CJZA,CJZB,CJZD,CJZC, CYVB\n                1.4L TFSI: CMBA, CXSA, CHPA, CHPB, CZCA, CZDA, CZEA\n                1.4L TGI: CPWA\n                1.4L TSI Multi Fuel CPVA\n                1.4L Hybrid CRJA\n\n\n                Other Engine codes: CHYA, CHYB, CHZL, CPGA, CHPA, CPTA, CHZB, CHZA / CZCB / DKJA / DADA\n\nOEM:  A - T10499\n           B - T10340\n           C - T10476\n           D - T10477\n           E - T10494\n           F - T10487\n           G - T10504\n           H - T10060A\n\nFor the camshaft holding tool set (OEM: T10172) see DM11-A1872\n"
+    },
+    {
+      "sku": "DM11-C2276",
+      "title": "Timing tool (no website listing held)",
+      "family": "timing",
+      "source": "timing_table",
+      "source_file": "data/toolfinder.csv",
+      "has_listing": false,
+      "price_inc_gst": null,
+      "rental_cost": 74.8,
+      "dimensions_mm": {
+        "length": 35.0,
+        "width": 31.0,
+        "height": 9.0
+      },
+      "weight_kg": 2.5,
+      "table_rows": [
+        {
+          "make": "VW",
+          "eng": "DFGA",
+          "alt_tool": null,
+          "rowid": "1992"
+        },
+        {
+          "make": "VW",
+          "eng": "DFHA",
+          "alt_tool": null,
+          "rowid": "1993"
+        }
+      ],
+      "quality_flags": [
+        "the table is keyed on make + engine code only: no model, no year, no displacement"
+      ],
+      "raw_text": ""
+    },
+    {
+      "sku": "DM13-8900",
+      "title": "Timing tool (no website listing held)",
+      "family": "timing",
+      "source": "timing_table",
+      "source_file": "data/toolfinder.csv",
+      "has_listing": false,
+      "price_inc_gst": null,
+      "rental_cost": 86.9,
+      "dimensions_mm": {
+        "length": 39.0,
+        "width": 20.0,
+        "height": 6.0
+      },
+      "weight_kg": 2.7,
+      "table_rows": [
+        {
+          "make": "GM/Vauxhall/Opel",
+          "eng": "LHU",
+          "alt_tool": null,
+          "rowid": "1994"
+        },
+        {
+          "make": "GM/Vauxhall/Opel",
+          "eng": "A20NFT",
+          "alt_tool": null,
+          "rowid": "1995"
+        },
+        {
+          "make": "GM/Vauxhall/Opel",
+          "eng": "LTG",
+          "alt_tool": null,
+          "rowid": "1996"
+        }
+      ],
+      "quality_flags": [
+        "the table is keyed on make + engine code only: no model, no year, no displacement"
+      ],
+      "raw_text": ""
+    },
+    {
+      "sku": "DM11-B1726",
+      "title": "Cross-referenced by DM11-A1261 - no listing held in this fixture",
+      "family": "seal",
+      "source": "cross_reference",
+      "source_file": "data/raw/DM11-A1261.txt",
+      "has_listing": false,
+      "price_inc_gst": null,
+      "referred_to_by": "DM11-A1261",
+      "referring_line_verbatim": "The best way to check is via the Seal Numbers as there are now two kits that may fit your vehicle, but also the depth the seal is pushed in. The other tool it may be is  DM11-B1726",
+      "quality_flags": [],
+      "raw_text": ""
+    },
+    {
+      "sku": "DM11-C1095-5H",
+      "title": "Cross-referenced by DM11-B1008 - no listing held in this fixture",
+      "family": "bearing",
+      "source": "cross_reference",
+      "source_file": "data/raw/DM11-B1008.txt",
+      "has_listing": false,
+      "price_inc_gst": null,
+      "referred_to_by": "DM11-B1008",
+      "referring_line_verbatim": "NOTE: Must separate wheel hub first to access wheel bearing. Use in conjunction with DM11-C1095-5H",
+      "quality_flags": [],
+      "raw_text": ""
+    },
+    {
+      "sku": "DM11-A1872",
+      "title": "Cross-referenced by DM11-C1594 - no listing held in this fixture",
+      "family": "timing",
+      "source": "cross_reference",
+      "source_file": "data/raw/DM11-C1594.txt",
+      "has_listing": false,
+      "price_inc_gst": null,
+      "referred_to_by": "DM11-C1594",
+      "referring_line_verbatim": "For the camshaft holding tool set (OEM: T10172) see DM11-A1872",
+      "quality_flags": [],
+      "raw_text": ""
+    }
+  ]
+}

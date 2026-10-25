@@ -1,0 +1,17 @@
+[client]
+# Keeps the Streamlit toolbar out of the screenshots.
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1f4e79"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f5f8"
+textColor = "#1a1a1a"
+
+[server]
+# The teaching team runs this locally; no telemetry, no CORS surprises.
+headless = false
+fileWatcherType = "auto"

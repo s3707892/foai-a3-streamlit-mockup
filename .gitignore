@@ -1,0 +1,15 @@
+# Virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Never commit secrets. The LLM path reads DEEPSEEK_API_KEY from the environment,
+# so there is no .env file to accidentally add here.
+.env

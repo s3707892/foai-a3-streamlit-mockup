@@ -1,0 +1,11 @@
+# The mock-up runs offline with no API key. Everything here is open source and
+# installable with pip on a standard machine.
+#
+#   python -m pip install -r requirements.txt
+#   python -m streamlit run app.py
+#
+# Pinned so the demo behaves the same for the teaching team as it did when recorded.
+streamlit==1.66.1
+
+# Test-only. Not needed to run the mock-up.
+pytest==9.1.1

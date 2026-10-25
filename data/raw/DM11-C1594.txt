@@ -1,0 +1,33 @@
+SKU: DM11-C1594
+Audi / VW 1.0L / 1.2L / 1.4L - TSI / TFSI Engine Timing Tool Kit - Blue motion (3 and 4 Cylinder) Petrol
+$437.80 Inc. GST
+For checking and adjusting engine timing on the newer belt driven petrol VW engines.
+
+Includes the updated camshaft locking tool for vehicles after 2013 with CoD (Cylinder on Demand) feature.
+
+NOTE: Vehicles Pre 2017, If you do need to remove the VVTi Sprockets, please use with DM1-A1872
+
+Models:
+
+VW: Up / Golf VII / Jetta
+Seat: Mii / Leon
+Skoda: Citigo / Octavia / Kamiq / Karoq / Yeti
+Engines: 1.2L TFSI: CJZA,CJZB,CJZD,CJZC, CYVB
+                1.4L TFSI: CMBA, CXSA, CHPA, CHPB, CZCA, CZDA, CZEA
+                1.4L TGI: CPWA
+                1.4L TSI Multi Fuel CPVA
+                1.4L Hybrid CRJA
+
+
+                Other Engine codes: CHYA, CHYB, CHZL, CPGA, CHPA, CPTA, CHZB, CHZA / CZCB / DKJA / DADA
+
+OEM:  A - T10499
+           B - T10340
+           C - T10476
+           D - T10477
+           E - T10494
+           F - T10487
+           G - T10504
+           H - T10060A
+
+For the camshaft holding tool set (OEM: T10172) see DM11-A1872
